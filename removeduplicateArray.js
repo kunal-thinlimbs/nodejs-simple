@@ -18,5 +18,4 @@ function removeDuolicateSorterArray(arr){
 }
 let sortArray=[1,2,3,3,4,4]
 
-console.log(sortArray.splice(0,removeDuolicateSorterArray(sortArray)))
-// 
+console.log("data added",sortArray.splice(0,removeDuolicateSorterArray(sortArray)))
